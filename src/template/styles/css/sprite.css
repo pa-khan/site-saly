@@ -1,0 +1,95 @@
+.icon-arrow-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -163px -48px;
+  width: 11px;
+  height: 7px; }
+
+.icon-arrow-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -152px -48px;
+  width: 11px;
+  height: 7px; }
+
+.icon-arrow-left-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -61px -48px;
+  width: 20px;
+  height: 10px; }
+
+.icon-arrow-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -81px -48px;
+  width: 20px;
+  height: 10px; }
+
+.icon-arrow-right-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -101px -48px;
+  width: 20px;
+  height: 10px; }
+
+.icon-arrow-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -121px -48px;
+  width: 20px;
+  height: 10px; }
+
+.icon-bag {
+  background-image: url(../../img/sprite.png);
+  background-position: -20px -48px;
+  width: 19px;
+  height: 22px; }
+
+.icon-check {
+  background-image: url(../../img/sprite.png);
+  background-position: -141px -48px;
+  width: 11px;
+  height: 9px; }
+
+.icon-cross-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -31px -70px;
+  width: 13px;
+  height: 13px; }
+
+.icon-cross-pink {
+  background-image: url(../../img/sprite.png);
+  background-position: -18px -70px;
+  width: 13px;
+  height: 13px; }
+
+.icon-error {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -48px;
+  width: 20px;
+  height: 22px; }
+
+.icon-facebook {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -88px;
+  width: 8px;
+  height: 19px; }
+
+.icon-insta {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -70px;
+  width: 18px;
+  height: 18px; }
+
+.icon-pay {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 177px;
+  height: 48px; }
+
+.icon-return {
+  background-image: url(../../img/sprite.png);
+  background-position: -44px -70px;
+  width: 7px;
+  height: 11px; }
+
+.icon-track {
+  background-image: url(../../img/sprite.png);
+  background-position: -39px -48px;
+  width: 22px;
+  height: 17px; }

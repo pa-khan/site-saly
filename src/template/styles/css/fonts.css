@@ -1,3 +1,25 @@
 /* Including fonts */
 @font-face {
-  src: url("../../fonts/"); }
+  src: url("../../fonts/OpenSans/OpenSans-Regular.ttf");
+  font-family: 'OpenSans';
+  font-weight: 400; }
+
+@font-face {
+  src: url("../../fonts/OpenSans/OpenSans-Bold.ttf");
+  font-family: 'OpenSans';
+  font-weight: 700; }
+
+@font-face {
+  src: url("../../fonts/OpenSans/OpenSans-ExtraBold.ttf");
+  font-family: 'OpenSans';
+  font-weight: 900; }
+
+@font-face {
+  src: url("../../fonts/Merriweather/Merriweather-Regular.ttf");
+  font-family: 'Merriweather';
+  font-weight: 400; }
+
+@font-face {
+  src: url("../../fonts/ALSRubl/rouble.otf");
+  font-family: 'ALSRubl';
+  font-weight: 400; }

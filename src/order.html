@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('main');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+	<![endif]-->
+</head>
+<body>
+<div class="panel">
+	<div class="case row">
+		<div class="panel__delivery col"><i class="icon icon-track"></i><p>Доставка по Твери <strong>Бесплатно</strong></p></div>
+		<div class="panel__socials socials col">
+			<ul>
+				<li><a href="" target="_blank"><i class="icon icon-facebook"></i></a></li>
+				<li><a href="" target="_blank"><i class="icon icon-insta"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<header class="header">
+	<div class="header__logo logo">
+		<div class="case"><a href=""><img src="upload/logo.png" alt=""></a>
+		</div>
+	</div>
+	<div class="header__wrap">
+		<div class="case row">
+			<div class="header__nav col">
+				<ul>
+					<li class="selected"><a href="">Женская</a></li>
+					<li><a href="">мужская</a></li>
+					<li><a href="">детская</a></li>
+					<li><a href="">sale</a></li>
+					<li><a href="">сдать вещи</a></li>
+					<li><a href="">о магазине</a></li>
+				</ul>
+			</div>
+			<a href="" class="header__cart cart col">
+				<div class="cart__icon"><i class="icon icon-bag"></i></div>
+				<div class="cart__count"><span>0</span> <b></b></div>
+			</a>
+		</div>
+	</div>
+</header>
+
+<main class="main">
+	<div class="page">
+		<div class="case">
+			<div class="return"><a href=""><i class="icon icon-return"></i><span>Продолжить покупки</span></a></div>
+			<div class="main-title main-title_center line">оформление заказа</div>
+			<div class="main-desc">3 простых шага не больше 3 минут Вашего времени</div>
+			<div class="wrap row">
+				<div class="order col">
+					<div class="order__list">
+						<table>
+							<thead>
+							<tr>
+								<td>наименование</td>
+								<td>цена</td>
+								<td>размер</td>
+								<td>удалить</td>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>
+									<div class="order__img"><a href="upload/photos/big/1.png" data-fancybox><img src="upload/photos/1.png" alt=""></a></div>
+									<div class="order__title"><a href="">Вязаный свитер с высоким воротником и логотипом бренда</a></div>
+								</td>
+								<td>
+									<div class="order__price"><span>7 800</span> <b></b></div>
+								</td>
+								<td>
+									<div class="order__size size"><span>44</span><p>L</p></div>
+								</td>
+								<td>
+									<div class="order__deleted"><i class="icon icon-cross-black"></i></div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="order__img"><a href="upload/photos/big/1.png" data-fancybox><img src="upload/photos/2.png" alt=""></a></div>
+									<div class="order__title"><a href="">Топ с круглым вырезом и констрастной отделкой</a></div>
+								</td>
+								<td>
+									<div class="order__price"><span>24 800</span> <b></b></div>
+								</td>
+								<td>
+									<div class="order__size size"><span>44</span><p>L</p></div>
+								</td>
+								<td>
+									<div class="order__deleted"><i class="icon icon-cross-black"></i></div>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="order__steps steps">
+						<div class="order__step step">
+							<div class="step__title">шаг 1. контактные данные</div>
+							<div class="step__list row_line">
+								<div class="step__col col_line col-2">
+									<div class="step__input input input_default input_required">
+										<div class="input__label">Имя:</div>
+										<div class="input__area">
+											<div class="input__desc">Как к вам обращаться</div>
+											<div class="input__field"><input type="text"></div>
+										</div>
+									</div>
+									<div class="step__input input input_default input_required input_error">
+										<div class="input__label">Телефон:</div>
+										<div class="input__area">
+											<div class="input__desc">Для согласования деталей заказа</div>
+											<div class="input__field"><input type="text"></div>
+										</div>
+									</div>
+								</div>
+								<div class="step__col col_line col-2">
+									<div class="step__input input input_default input_required">
+										<div class="input__label">Ваш E-mail:</div>
+										<div class="input__area">
+											<div class="input__desc">Куда выслать информацию по заказу</div>
+											<div class="input__field"><input type="text"></div>
+										</div>
+									</div>
+									<div class="step__input input input_default input_required">
+										<div class="input__label">Адрес:</div>
+										<div class="input__area">
+											<div class="input__desc">Куда доставить заказ</div>
+											<div class="input__field"><input type="text"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="order__step step">
+							<div class="step__title">шаг 2. как доставить</div>
+							<div class="step__list row_line">
+								<div class="step__col col_line col-1">
+									<div class="step__radio radio"><input type="radio" name="delivery" checked="checked"><label>Самовывоз - бесплатно</label></div>
+									<div class="step__radio radio"><input type="radio" name="delivery"><label>Курьером по Твери - 150 р.</label></div>
+									<div class="step__radio radio"><input type="radio" name="delivery"><label>Транспортной компанией</label></div>
+								</div>
+							</div>
+						</div>
+						<div class="order__step step">
+							<div class="step__title">шаг 3. как оплатить</div>
+							<div class="step__list row_line">
+								<div class="step__col col_line col-1">
+									<div class="step__radio radio"><input type="radio" name="pay" checked="checked"><label>При получении</label></div>
+									<div class="step__radio radio"><input type="radio" name="pay"><label>Пластиковой картой или электронными деньгами</label></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="total">
+		<div class="case">итого с учетом доставки: 98 800 рублей</div>
+	</div>
+	<div class="checkout">
+		<div class="case">
+			<div class="checkout__title">
+				<p>После оформления вам на почту придет письмо с подтверждением заказа.</p>
+				<p>В течение часа Вам перезвонит оператор для уточнения всех деталей.</p>
+			</div>
+			<div class="checkout__checkbox-wrap">
+				<div class="checkout__checkbox checkbox"><input type="checkbox"><label>с условиями оферты ознакомлен</label></div>
+			</div>
+			<button class="checkout__btn btn btn_pink-border">оформить заказ</button>
+		</div>
+	</div>
+</main>
+
+<footer class="footer">
+	<div class="footer__top">
+		<div class="case row">
+			<div class="footer__logo col"><img src="upload/logo.png" alt=""></div>
+			<div class="footer__nav col">
+				<ul>
+					<li><a href="">О магазине</a></li>
+					<li><a href="">Заказ и доставка</a></li>
+					<li><a href="">Прием вещей</a></li>
+					<li><a href="">Политика конфиденциальности</a></li>
+					<li><a href="">Пользовательское соглашение</a></li>
+				</ul>
+			</div>
+			<div class="footer__contacts col">
+				<div class="footer__title">Контакты</div>
+				<div class="footer__email"><a href="mailto:hello@salyshop.ru">hello@salyshop.ru</a></div>
+				<div class="footer__tel"><a href="tel:+79040000001">+7 904 000 00 01</a></div>
+				<div class="footer__socials socials">
+					<ul>
+						<li><a href="" target="_blank"><i class="icon icon-facebook"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-insta"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__pay right col">
+				<div class="footer__title">Принимаем оплату:</div>
+				<div class="pay"><i class="icon icon-pay"></i></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="case row">
+			<div class="footer__copy col">© «Salyshop» 2017</div>
+			<div class="footer__dev col right">Создание сайта</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
