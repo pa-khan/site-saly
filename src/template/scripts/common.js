@@ -1,6 +1,5 @@
 $(document).ready(function($) {
 
-	$('.text_phone').mask('+7 (999) 999-99-99');
 	
 	$('.best__list').slick({
 		autoplay: true,
@@ -62,4 +61,17 @@ $(document).ready(function($) {
 	valueElementForm('checkbox');
 	valueElementForm('radio');
 	
+
+
+	$(window).on('load, scroll', function () {
+		var windowScroll = $(window).scrollTop();
+		
+		if (windowScroll > 181) {
+			$('.header__wrap').addClass('header__wrap_fixed');
+		} else {
+			$('.header__wrap').removeClass('header__wrap_fixed');
+		}
+	})
+
+	$('.product-p__img-item').zoom();
 });

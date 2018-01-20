@@ -1,7 +1,6 @@
 /* Including styles files */
 @import sprite.sass
 @import fonts.sass
-@import '../../libs/fancybox/dist/jquery.fancybox.css'
 @import '../../libs/slick-carousel/slick/slick.css'
 @import '../../libs/slick-carousel/slick/slick-theme.css'
 @import '../../libs/jquery.form-styler/dist/jquery.formstyler.css'
@@ -30,6 +29,7 @@ body
 	font-family: $font-family-1
 	color: $color-1
 	background: white
+	min-width: 1120px
 
 header, nav, main, section, article, aside, footer, li, .block
 	display: block
@@ -76,7 +76,9 @@ img
 /* Grid */
 .case
 	position: relative
+	// width: 100%
 	width: (1100px + 20px)
+	// max-width: (1100px + 20px)
 	padding-left: 10px
 	padding-right: 10px
 
@@ -286,6 +288,7 @@ b
 
 	&__nav
 		text-transform: uppercase
+
 		li
 			font-size: 12px
 			letter-spacing: 1.8px
@@ -307,6 +310,16 @@ b
 				color: #d01288
 	&__wrap
 		border-top: 1px solid #f0efed
+		border-bottom: 1px solid #f0efed
+		// transition: .3s
+		&_fixed
+			z-index: 100
+			position: fixed
+			top: 0
+			left: 0
+			width: 100%
+			background: white
+			border-top: none
 	&__cart
 		float: right
 		padding-top: 15px
@@ -334,6 +347,7 @@ b
 		
 		
 .sex
+	margin-top: -2px
 	&__item
 		position: relative
 		width: 50%
@@ -434,6 +448,8 @@ b
 
 .categories
 	margin-bottom: 70px
+	.case
+		border-bottom: 1px solid #f0efed
 	&__list
 		margin-left: -12px
 		margin-right: -12px
@@ -504,8 +520,19 @@ b
 		position: relative
 	&__img
 		margin-bottom: 28px
+		width: 200px
+		height: 180px
+		overflow: hidden
 		img
 			max-width: 100%
+			&:nth-of-type(2)
+				display: none
+		&:hover
+			img
+				&:nth-of-type(1)
+					display: none
+				&:nth-of-type(2)
+					display: block
 	&__size
 		position: absolute
 		bottom: 0
@@ -867,6 +894,7 @@ b
 .order
 	width: 100%
 	&__list
+		margin-bottom: 30px
 		table
 			width: 100%
 			border-collapse: collapse
@@ -876,14 +904,18 @@ b
 				font-size: 12px
 				font-weight: 900
 				text-transform: uppercase
-				border-top: 1px solid #f0efed
-				border-bottom: 1px solid #f0efed
+				border-top: 1px solid #282828
+				border-bottom: 1px solid #282828
 				letter-spacing: 1.3px
 				padding-top: 25px
 				padding-bottom: 25px
 				&:first-of-type
 					padding-left: 90px
 		tbody
+			tr
+				&:last-of-type
+					td
+						border-bottom: 1px solid #282828
 			td
 				padding-top: 16px
 				padding-bottom: 16px
